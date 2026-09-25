@@ -1,0 +1,126 @@
+.app-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1100;
+    height: 56px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.app-header-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+}
+
+.app-header-logo-image {
+    display: block;
+    border-radius: 8px;
+}
+
+.app-header-logo-text {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    color: #111827;
+}
+
+.app-header-logo-accent {
+    color: #0d6efd;
+}
+
+.app-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header-icon-btn {
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-icon-btn:hover {
+    background: #f3f4f6;
+}
+
+.bell-icon {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #111827;
+    border-radius: 8px 8px 4px 4px;
+    border-bottom: none;
+    position: relative;
+    margin-top: -2px;
+}
+
+.bell-icon::before {
+    content: "";
+    position: absolute;
+    left: 4px;
+    bottom: -3px;
+    width: 6px;
+    height: 3px;
+    border: 2px solid #111827;
+    border-top: none;
+    border-radius: 0 0 6px 6px;
+}
+
+.header-badge {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    min-width: 16px;
+    height: 16px;
+    padding: 0 4px;
+    border-radius: 999px;
+    background: #ef4444;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.header-avatar-btn {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+
+.header-avatar-btn img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: block;
+}
+
+.header-online-dot {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 9px;
+    height: 9px;
+    background: #22c55e;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}

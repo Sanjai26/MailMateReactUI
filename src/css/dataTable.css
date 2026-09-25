@@ -1,0 +1,27 @@
+.users-page .dataTable,
+.users-page .dataTables_wrapper,
+.users-page table {
+  box-shadow: none !important;
+}
+
+.users-page .dataTable tbody td {
+  vertical-align: middle;
+}
+
+table.dataTable > thead > tr > th, table.dataTable > thead > tr > td {
+    background-color: #F6F9FA !important ;
+}
+
+.dt-length > select
+{
+    height: 20px;
+    margin: 0px 0px 0px 5px;
+    padding: 0px !important;
+}
+
+.dt-search .dt-input
+{
+    height: 25px;
+    width: 200px;
+
+}
